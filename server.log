@@ -1,0 +1,79 @@
+[2025-11-29 13:31:12] Attempting: netsh http add urlacl url=http://+:24603/ user=Everyone
+[2025-11-29 13:31:15] Firewall rule added (New-NetFirewallRule) for port 24603
+[2025-11-29 13:31:15] Starting server on prefix http://+:24603/ with root 'C:\Users\JaYp0\Desktop\Demo'
+[2025-11-29 13:31:15] Listener started on http://+:24603/
+[2025-11-29 13:31:16] Server started and accessible at http://192.168.1.9:24603/
+[2025-11-29 13:31:16] Request 192.168.1.9:60972 GET / -> C:\Users\JaYp0\Desktop\Demo\index.html
+[2025-11-29 13:31:17] Request 192.168.1.9:60972 GET /favicon.ico -> C:\Users\JaYp0\Desktop\Demo\favicon.ico
+[2025-11-29 13:33:11] URL queried: http://192.168.1.9:24603/
+[2025-11-29 13:33:28] Request 192.168.1.5:39452 GET / -> C:\Users\JaYp0\Desktop\Demo\index.html
+[2025-11-29 13:33:28] Request 192.168.1.5:39452 GET /favicon.ico -> C:\Users\JaYp0\Desktop\Demo\favicon.ico
+[2025-11-29 13:33:30] Request 192.168.1.5:39452 GET / -> C:\Users\JaYp0\Desktop\Demo\index.html
+[2025-11-29 13:34:16] File watcher enabled on C:\Users\JaYp0\Desktop\Demo
+[2025-11-29 13:35:08] Request 192.168.1.9:61128 GET / -> C:\Users\JaYp0\Desktop\Demo\index.html
+[2025-11-29 13:35:38] Stopping server job 3 (forced)
+[2025-11-29 13:36:04] Stopping listener on http://+:24603/
+[2025-11-29 13:36:32] Background daemon starting (PID 2448)
+[2025-11-29 13:36:32] Attempting: netsh http add urlacl url=http://+:58973/ user=Everyone
+[2025-11-29 13:36:33] Firewall rule added (New-NetFirewallRule) for port 58973
+[2025-11-29 13:36:33] Starting server on prefix http://+:58973/ with root 'C:\Users\JaYp0\Desktop\Demo'
+[2025-11-29 13:36:34] Listener started on http://+:58973/
+[2025-11-29 13:36:34] Server started and accessible at http://192.168.1.9:58973/
+[2025-11-29 13:40:55] Background daemon starting (PID 8748)
+[2025-11-29 13:40:55] Attempting: netsh http add urlacl url=http://+:54901/ user=Everyone
+[2025-11-29 13:40:56] Firewall rule added (New-NetFirewallRule) for port 54901
+[2025-11-29 13:40:56] Starting server on prefix http://+:54901/ with root 'C:\Users\JaYp0\Desktop\Demo'
+[2025-11-29 13:40:57] Listener started on http://+:54901/
+[2025-11-29 13:40:57] Server started and accessible at http://192.168.1.9:54901/
+[2025-11-29 13:41:29] Request 192.168.1.9:61354 GET / -> C:\Users\JaYp0\Desktop\Demo\index.html
+[2025-11-29 13:41:29] Request 192.168.1.9:61354 GET /favicon.ico -> C:\Users\JaYp0\Desktop\Demo\favicon.ico
+[2025-11-29 13:41:55] Stop signal detected, stopping server...
+[2025-11-29 13:41:55] Stopping server job 3 (forced)
+[2025-11-29 13:42:24] Stopping listener on http://+:54901/
+[2025-11-29 13:42:24] Attempting: netsh http delete urlacl url=http://+:54901/
+[2025-11-29 13:42:26] Firewall rule removed (Remove-NetFirewallRule): StaticServer_54901
+[2025-11-29 13:42:26] File watcher disabled.
+[2025-11-29 13:42:26] Background daemon exiting.
+[2025-11-29 13:43:26] Attempting: netsh http add urlacl url=http://+:1131/ user=Everyone
+[2025-11-29 13:43:28] Firewall rule added (New-NetFirewallRule) for port 1131
+[2025-11-29 13:43:28] Starting server on prefix http://+:1131/ with root 'C:\Users\JaYp0\Desktop\Demo'
+[2025-11-29 13:43:28] Listener started on http://+:1131/
+[2025-11-29 13:43:29] Server started and accessible at http://192.168.1.9:1131/
+[2025-11-29 13:43:29] Request 192.168.1.9:61431 GET / -> C:\Users\JaYp0\Desktop\Demo\index.html
+[2025-11-29 13:43:29] Request 192.168.1.9:61431 GET /favicon.ico -> C:\Users\JaYp0\Desktop\Demo\favicon.ico
+[2025-11-29 13:43:55] Stopping server job 3 (forced)
+[2025-11-29 13:44:11] Stopping listener on http://+:1131/
+[2025-11-29 13:44:11] Attempting: netsh http delete urlacl url=http://+:1131/
+[2025-11-29 13:44:12] Firewall rule removed (Remove-NetFirewallRule): StaticServer_1131
+[2025-11-29 13:44:12] File watcher disabled.
+[2025-11-29 13:45:42] Background daemon starting (PID 5128)
+[2025-11-29 13:45:42] Attempting: netsh http add urlacl url=http://+:65222/ user=Everyone
+[2025-11-29 13:45:44] Firewall rule added (New-NetFirewallRule) for port 65222
+[2025-11-29 13:45:44] Starting server on prefix http://+:65222/ with root 'C:\Users\JaYp0\Desktop\Demo'
+[2025-11-29 13:45:44] Listener started on http://+:65222/
+[2025-11-29 13:45:45] Server started and accessible at http://192.168.1.9:65222/
+[2025-11-29 13:46:07] Stop signal detected, stopping server...
+[2025-11-29 13:46:07] Stopping server job 3 (forced)
+[2025-11-29 13:48:07] Attempting: netsh http delete urlacl url=http://+:65222/
+[2025-11-29 13:48:09] Firewall rule removed (Remove-NetFirewallRule): StaticServer_65222
+[2025-11-29 13:48:09] File watcher disabled.
+[2025-11-29 13:48:09] Background daemon exiting.
+[2025-11-29 14:09:39] Starting server on prefix http://localhost:31725/ with root 'C:\Users\JaYp0\Desktop\Demo' (scope=localhost)
+[2025-11-29 14:09:39] Server started and accessible at http://localhost:31725/
+[2025-11-29 14:09:39] Listener started on http://localhost:31725/
+[2025-11-29 14:09:39] Request [::1]:62317 GET / -> C:\Users\JaYp0\Desktop\Demo\index.html
+[2025-11-29 14:09:40] Request [::1]:62317 GET /favicon.ico -> C:\Users\JaYp0\Desktop\Demo\favicon.ico
+[2025-11-29 14:12:28] Attempting: netsh http add urlacl url=http://+:52601/ user=Everyone
+[2025-11-29 14:12:30] Firewall rule added (New-NetFirewallRule) for port 52601
+[2025-11-29 14:12:30] Starting server on prefix http://+:52601/ with root 'C:\Users\JaYp0\Desktop\Demo' (scope=public)
+[2025-11-29 14:12:30] Listener started on http://+:52601/
+[2025-11-29 14:12:31] Server started and accessible at http://192.168.1.9:52601/
+[2025-11-29 14:12:31] Request 192.168.1.9:62421 GET / -> C:\Users\JaYp0\Desktop\Demo\index.html
+[2025-11-29 14:12:31] Request 192.168.1.9:62421 GET /favicon.ico -> C:\Users\JaYp0\Desktop\Demo\favicon.ico
+[2025-11-29 14:13:03] URL queried: http://192.168.1.9:52601/
+[2025-11-29 14:13:43] Request 192.168.1.5:55572 GET / -> C:\Users\JaYp0\Desktop\Demo\index.html
+[2025-11-29 14:13:43] Request 192.168.1.5:55572 GET /favicon.ico -> C:\Users\JaYp0\Desktop\Demo\favicon.ico
+[2025-11-29 14:17:56] Request 192.168.1.5:54580 GET / -> C:\Users\JaYp0\Desktop\Demo\index.html
+[2025-11-29 14:17:58] Request 192.168.1.5:54580 GET / -> C:\Users\JaYp0\Desktop\Demo\index.html
+[2025-11-29 14:17:59] Request 192.168.1.5:54580 GET / -> C:\Users\JaYp0\Desktop\Demo\index.html
+[2025-11-29 14:18:00] Request 192.168.1.5:54580 GET / -> C:\Users\JaYp0\Desktop\Demo\index.html
